@@ -2,7 +2,12 @@
   <div>
     <app-header></app-header>
   </div>
-  <div>
-    <router-outlet></router-outlet>
+  <div class="my-10 p-10 bg-slate-700 flex" >
+    <div class="border ">
+      <app-sidebar></app-sidebar>
+    </div>
+    <div class="border w-3/4 mx-auto p-10 bg-slate-400 rounded-r-lg">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </div>

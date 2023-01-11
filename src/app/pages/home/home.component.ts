@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  tituloHome = "SINGLE PAGES APPLICATION"
+  contenido = "He construido mi primera pagina SPA"
 }

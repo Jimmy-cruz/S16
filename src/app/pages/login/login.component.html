@@ -1,1 +1,28 @@
-<p>login works!</p>
+<!-- <p>login works!</p> -->
+
+<div>
+    <form action="">
+        <div class="">
+            <p class="my-5 font-bold">
+                <label for="email">Email Address: </label>
+            </p>
+            <input class="border-4 rounded-lg w-full" type="text" [(ngModel)]="email">
+        </div>
+        <div class="">
+            <p class="my-5 font-bold">
+                <label for="email">Password: </label>
+            </p>
+            <input class="border-4 rounded-lg w-full" type="text" [(ngModel)]="password">
+        </div>
+        <div class="my-4">
+            <input type="checkbox"><span class="mx-3">Remember me</span>
+        </div>
+        <div class="mx-auto">
+            <button 
+            (click)="send()"
+            class="rounded-lg bg-black text-white px-3 py-2">
+                Submit
+            </button>
+        </div>
+    </form>
+</div>

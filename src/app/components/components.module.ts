@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    SidebarComponent
   ],
   imports: [
     CommonModule,
@@ -15,7 +17,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     RouterLinkActive
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    SidebarComponent
   ]
 })
 export class ComponentsModule { }
